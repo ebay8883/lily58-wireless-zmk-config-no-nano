@@ -24,8 +24,8 @@
             bindings = <
 &kp ESC           &kp N1  &kp N2  &kp N3    &kp N4    &kp N5                          &kp N6  &kp N7      &kp N8     &kp N9   &kp N0          &kp BACKSPACE
 &kp TAB           &kp Q   &kp W   &kp E     &kp R     &kp T                           &kp Y   &kp U       &kp I      &kp O    &kp P           &kp BACKSLASH
-&kp LEFT_SHIFT    &kp A   &kp S   &kp D     &kp F     &kp G                           &kp H   &kp J       &kp K      &kp L    &kp APOSTROPHE  &kp ENTER
-&kp LEFT_CONTROL  &kp Z   &kp X   &kp C     &kp V     &kp B   &kp LBKT     &kp RBKT   &kp N   &kp M       &kp COMMA  &kp DOT  &kp FSLH        &kp LEFT_SHIFT
+&kp LEFT_SHIFT    &kp A   &kp S   &kp D     &kp F     &kp G                           &kp H   &kp J       &kp K      &kp L    &kp APOSTROPHE  &kp RIGHT_SHIFT
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C     &kp V     &kp B   &kp LBKT     &kp RBKT   &kp N   &kp M       &kp COMMA  &kp DOT  &kp FSLH        &kp ENTER
                                   &kp LALT  &kp LGUI  &mo 1   &kp SPACE    &kp SPACE  &mo 2   &kp DELETE  &kp SEMI
             >;
 
@@ -42,7 +42,7 @@
 
             label = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans     &trans           &trans           &trans           &trans    &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &trans     &trans           &trans           &kp MINUS        &trans    &trans
 &kp F1      &kp F2        &kp F3        &kp F4        &kp F5        &kp F6                          &kp F7     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp F11   &kp F12
 &kp GRAVE   &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PRCNT                       &kp CARET  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp RPAR  &kp TILDE
 &trans      &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans     &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RBRC  &kp PIPE
