@@ -62,9 +62,9 @@
             label = "Raise";
             bindings = <
 &trans          &trans  &trans  &trans  &trans  &trans                    &trans       &trans     &trans        &trans     &trans    &trans
-&trans          &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &trans       &trans     &kp UP_ARROW  &trans     &trans    &trans
-&kp TAB         &trans  &trans  &trans  &trans  &trans                    &trans       &kp LEFT   &kp DOWN      &kp RIGHT  &trans    &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp LBKT   &kp RBKT  &kp BSLH
+&kp TAB         &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                    &trans       &trans     &kp UP_ARROW  &trans     &trans    &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans  &trans  &trans                    &trans       &kp LEFT   &kp DOWN      &kp RIGHT  &trans    &trans
+&trans          &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL     &kp LBKT   &kp RBKT  &kp BSLH
                                 &trans  &trans  &trans  &trans    &trans  &trans       &trans     &trans
             >;
 
